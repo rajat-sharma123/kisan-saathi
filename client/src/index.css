@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-agri-bg text-agri-text antialiased selection:bg-agri-light selection:text-agri-dark font-sans;
+    min-height: 100vh;
+  }
+}
+
+/* Custom crisp scrollbar for agricultural dashboard */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F7F9F4;
+}
+::-webkit-scrollbar-thumb {
+  background: #C4D3BD;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #82BD4B;
+}
+
+/* Smooth transitions */
+button, a, input, select {
+  transition: all 0.15s ease-in-out;
+}

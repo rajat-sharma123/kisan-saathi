@@ -1,0 +1,16 @@
+{
+  "short_name": "KisanSaathi",
+  "name": "Kisan Saathi: Smart Crop Advisory System",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "192x192 512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#F7F9F4",
+  "theme_color": "#315D2A",
+  "display": "standalone",
+  "orientation": "portrait"
+}
